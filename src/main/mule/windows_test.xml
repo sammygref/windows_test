@@ -7,5 +7,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
 	<flow name="windows_testFlow" doc:id="7b936d51-2ead-49e6-931f-2b9967775e0d" >
 		<http:listener doc:name="Listener" doc:id="f112de32-b49e-4162-ade6-61ea5a845d27" />
+		<logger level="INFO" doc:name="Logger" doc:id="d09245ad-c1b8-4534-a0c0-e93d498ed384" />
 	</flow>
 </mule>
