@@ -7,6 +7,5 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
 	<flow name="windows_testFlow" doc:id="7b936d51-2ead-49e6-931f-2b9967775e0d" >
 		<http:listener doc:name="Listener" doc:id="f112de32-b49e-4162-ade6-61ea5a845d27" />
-		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="3e8e4e4f-9fb3-41c9-b113-0bc93b614e93" />
 	</flow>
 </mule>
